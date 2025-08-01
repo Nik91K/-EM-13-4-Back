@@ -1,0 +1,247 @@
+[
+  {
+    "name": "The Beatles",
+    "genre": "Rock",
+    "originCountry": "UK",
+    "foundedYear": 1960,
+    "isStillActive": false,
+    "trackCount": 578,
+    "albumCount": 7,
+    "members": [
+      { "name": "John Lennon", "instrument": "Guitar", "birthYear": 1940, "joinedYear": 1960, "leftYear": 1969 },
+      { "name": "Paul McCartney", "instrument": "Bass", "birthYear": 1942, "joinedYear": 1960 },
+      { "name": "George Harrison", "instrument": "Guitar", "birthYear": 1943, "joinedYear": 1960, "leftYear": 1970 },
+      { "name": "Ringo Starr", "instrument": "Drums", "birthYear": 1940, "joinedYear": 1962 }
+    ],
+    "albums": [
+      {
+        "id": 1,
+        "title": "Abbey Road",
+        "releaseYear": 1969,
+        "tracks": [
+          { "id": 1, "title": "Come Together", "durationInSeconds": 259, "releaseYear": 1969 },
+          { "id": 2, "title": "Something", "durationInSeconds": 182, "releaseYear": 1969 }
+        ]
+      },
+      {
+        "id": 2,
+        "title": "Let It Be",
+        "releaseYear": 1970,
+        "tracks": [
+          { "id": 3, "title": "Let It Be", "durationInSeconds": 243, "releaseYear": 1970 },
+          { "id": 4, "title": "The Long and Winding Road", "durationInSeconds": 211, "releaseYear": 1970 },
+          { "id": 5, "title": "Across the Universe", "durationInSeconds": 228, "releaseYear": 1970 },
+          { "id": null, "title": null, "durationInSeconds": null, "releaseYear": null }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Queen",
+    "genre": "Rock",
+    "originCountry": "UK",
+    "foundedYear": 1970,
+    "isStillActive": true,
+    "trackCount": 114,
+    "albumCount": 12,
+    "members": [
+      { "name": "Freddie Mercury", "instrument": "Vocals", "birthYear": 1946, "joinedYear": 1970, "leftYear": 1991 },
+      { "name": "Brian May", "instrument": "Guitar", "birthYear": 1947, "joinedYear": 1970 },
+      { "name": "Roger Taylor", "instrument": "Drums", "birthYear": 1949, "joinedYear": 1970 },
+      { "name": "John Deacon", "instrument": "Bass", "birthYear": 1951, "joinedYear": 1971, "leftYear": 1997 }, {}
+    ],
+    "albums": [
+      {
+        "id": 1,
+        "title": "A Night at the Opera",
+        "releaseYear": 1975,
+        "tracks": [
+          { "id": 1, "title": "Bohemian Rhapsody", "durationInSeconds": 354, "releaseYear": 1975 },
+          { "id": 2, "title": "You're My Best Friend", "durationInSeconds": 169, "releaseYear": 1975 }
+        ]
+      },
+      {
+        "id": 2,
+        "title": "News of the World",
+        "releaseYear": 1977,
+        "tracks": [
+          { "id": 3, "title": "We Will Rock You", "durationInSeconds": 122, "releaseYear": 1977 },
+          { "id": 4, "title": "We Are the Champions", "durationInSeconds": 179, "releaseYear": 1977 }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Nirvana",
+    "genre": "Rock",
+    "originCountry": "USA",
+    "foundedYear": 1987,
+    "isStillActive": false,
+    "trackCount": 78,
+    "albumCount": -212,
+    "members": [
+      { "name": "Kurt Cobain", "instrument": "Vocals/Guitar", "birthYear": 1967, "joinedYear": 1987, "leftYear": 1994 },
+      { "name": "Krist Novoselic", "instrument": "Bass", "birthYear": 1965, "joinedYear": 1987 },
+      { "name": "Dave Grohl", "instrument": "Drums", "birthYear": 1969, "joinedYear": 1990 }
+    ],
+    "albums": [
+      {
+        "id": 1,
+        "title": "Nevermind",
+        "releaseYear": 0,
+        "tracks": [
+          { "id": 1, "title": "Smells Like Teen Spirit", "durationInSeconds": 301, "releaseYear": 1991 },
+          { "id": 2, "title": "Come as You Are", "durationInSeconds": 219, "releaseYear": 1991 }
+        ]
+      },
+      {
+        "id": 2,
+        "title": "In Utero",
+        "releaseYear": 1993,
+        "tracks": [
+          { "id": 3, "title": "Heart-Shaped Box", "durationInSeconds": 278, "releaseYear": 1993 },
+          { "id": 4, "title": "Rape Me", "durationInSeconds": 164, "releaseYear": 1993 }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Pink Floyd",
+    "genre": "Rock",
+    "originCountry": "UK",
+    "foundedYear": 1965,
+    "isStillActive": false,
+    "trackCount": 125,
+    "albumCount": 12,
+    "members": [
+      { "name": "David Gilmour", "instrument": "Guitar", "birthYear": 1946, "joinedYear": 1967 },
+      { "name": "Roger Waters", "instrument": "Bass", "birthYear": 1943, "joinedYear": 1965, "leftYear": 1985 },
+      { "name": "Richard Wright", "instrument": "Keyboards", "birthYear": 1943, "joinedYear": 1965, "leftYear": 2008 },
+      { "name": "undefined", "instrument": "Drums", "birthYear": 1944, "joinedYear": 1965 }
+    ],
+    "albums": [
+      {
+        "id": 1,
+        "title": "The Dark Side of the Moon",
+        "releaseYear": 1973,
+        "tracks": [
+          { "id": 1, "title": "Time", "durationInSeconds": -123980, "releaseYear": 1973 },
+          { "id": 2, "title": "Money", "durationInSeconds": 382, "releaseYear": 1973 }
+        ]
+      },
+      {
+        "id": 2,
+        "title": "The Wall",
+        "releaseYear": 1979,
+        "tracks": [
+          { "id": 3, "title": "Another Brick in the Wall", "durationInSeconds": 239, "releaseYear": 1979 },
+          { "id": 4, "title": "Comfortably Numb", "durationInSeconds": 384, "releaseYear": 1979 },
+          { "id": 5, "title": "Hey You", "durationInSeconds": 281, "releaseYear": 1979 }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "The Rolling Stones",
+    "genre": "Rock",
+    "originCountry": "UK",
+    "foundedYear": 2062,
+    "isStillActive": true,
+    "trackCount": 204,
+    "albumCount": 22,
+    "members": [
+      { "name": "Mick Jagger", "instrument": "Vocals", "birthYear": 1943, "joinedYear": 1962 },
+      { "name": "Keith Richards", "instrument": "Guitar", "birthYear": 1943, "joinedYear": 1962 },
+      { "name": "Ronnie Wood", "instrument": "Guitar", "birthYear": 1947, "joinedYear": 1975 }
+    ],
+    "albums": [
+      {
+        "id": 1,
+        "title": "Sticky Fingers",
+        "releaseYear": 1971,
+        "tracks": [
+          { "id": 1, "title": "Brown Sugar", "durationInSeconds": 215, "releaseYear": 1971 },
+          { "id": 2, "title": "Wild Horses", "durationInSeconds": 324, "releaseYear": 1971 }
+        ]
+      },
+      {
+        "id": 2,
+        "title": "Exile on Main St.",
+        "releaseYear": 1972,
+        "tracks": [
+          { "id": 3, "title": "Tumbling Dice", "durationInSeconds": 221, "releaseYear": 1972 },
+          { "id": 4, "title": "Shine a Light", "durationInSeconds": 260, "releaseYear": 1972 }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Led Zeppelin",
+    "genre": "Rock",
+    "originCountry": "UK",
+    "foundedYear": 1968,
+    "isStillActive": false,
+    "trackCount": 144,
+    "albumCount": 5,
+    "members": [
+      { "name": "Robert Plant", "instrument": "Vocals", "birthYear": 1948, "joinedYear": 1968 },
+      { "name": "Jimmy Page", "instrument": "Guitar", "birthYear": 1944, "joinedYear": 1968 },
+      { "name": "John Paul Jones", "instrument": "Bass", "birthYear": 1946, "joinedYear": 1968 },
+      { "name": "John Bonham", "instrument": "Drums", "birthYear": 1948, "joinedYear": 1968, "leftYear": 1980 }
+    ],
+    "albums": [
+      {
+        "id": 1,
+        "title": "Led Zeppelin IV",
+        "releaseYear": 1971,
+        "tracks": [
+          { "id": 1, "title": "Black Dog", "durationInSeconds": 296, "releaseYear": 1971 },
+          { "id": 2, "title": "Stairway to Heaven", "durationInSeconds": 482, "releaseYear": 1971 }
+        ]
+      },
+      {
+        "id": 2,
+        "title": "Physical Graffiti",
+        "releaseYear": 1975,
+        "tracks": [
+          { "id": 3, "title": "Kashmir", "durationInSeconds": 515, "releaseYear": 1975 },
+          { "id": 4, "title": "Trampled Under Foot", "durationInSeconds": 333, "releaseYear": 1975 }
+        ]
+      }
+    ]
+  },{},
+  {
+    "name": "Foo Fighters",
+    "genre": "Rock",
+    "originCountry": "",
+    "foundedYear": 1994,
+    "isStillActive": true,
+    "trackCount": 98,
+    "albumCount": 8,
+    "members": [
+      { "name": "Dave Grohl", "instrument": "Vocals/Guitar", "birthYear": 1969, "joinedYear": 1994 },
+      { "name": "", "instrument": "Bass", "birthYear": 1968, "joinedYear": 1995 },{},
+      { "name": "Taylor Hawkins", "instrument": "Drums", "birthYear": 1972, "joinedYear": 1997, "leftYear": 2022 }
+    ],
+    "albums": [
+      {
+        "id": 1,
+        "title": "The Colour and the Shape",
+        "releaseYear": 1997,
+        "tracks": [
+          { "id": 1, "title": "Everlong", "durationInSeconds": 250, "releaseYear": 1997 },{},
+          { "id": 2, "title": "My Hero", "durationInSeconds": 260, "releaseYear": 1997 }
+        ]
+      },
+      {
+        "id": 2,
+        "title": "Wasting Light",
+        "releaseYear": 2011,
+        "tracks": [
+          { "id": 3, "title": null, "durationInSeconds": 252, "releaseYear": 2011 },
+          { "id": 4, "title": "Walk", "durationInSeconds": 265, "releaseYear": 2011 }
+        ]
+      }
+    ]
+  }
+]
