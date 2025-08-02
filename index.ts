@@ -219,7 +219,7 @@ bandList.forEach(bands => {
 })
 
 console.log(count)
-/*
+
 // Задача 1.1
 
 class Car {
@@ -229,7 +229,7 @@ class Car {
     private _gasolinCapacity: number;
     private fuelConsumption: number;
     constructor() {
-        this.brand = "Audi A4"
+        this.brand = "Audi A5"
         this.year = 2023
         this.fuelConsumption = 26
     }
@@ -253,6 +253,15 @@ class Car {
         return this._gasolinCapacity
     }
 
+    set gasolinCapacity(data: number) {
+        if (data >= 0) {
+            this._gasolinCapacity = data
+        } else {
+            console.log('Обʼєм не можу бути 0')
+        }
+
+    }
+
 }
 
 // Задача 1.2
@@ -271,6 +280,7 @@ class Comment {
     constructor () {
         this.userName = 'Валентина Омельчук'
         this.title = 'Відгук від покупця. Продавець: SBT group'
+        this.date = new Date()
         this.stars = 5
         this.text = 'Чудовий подарунок, як для дитини, так і для дорослого. Приємним бонусом було, що це не лише конструктор, а і світильник. Прийшло вчасно та з усіма деталями'
         this.advantages = 'Приємна ціна та цікавий варіант подарунку'
@@ -306,6 +316,13 @@ class Hotel {
     rating: number;
     rooms: Room[];
 
+    constructor(name: string, rating: number, rooms: Room[]) {
+        this.name = name
+        this.rating = rating
+        this.rooms = rooms
+    }
+
+
     bookRoom (type: RoomsTypes, floor?: number): Room {
         let isAvaileble = this.rooms.find(rooms => 
             rooms.type === type && 
@@ -322,4 +339,3 @@ class Hotel {
     }
 
 }
-*/
